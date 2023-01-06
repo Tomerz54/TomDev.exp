@@ -1,0 +1,295 @@
+body{
+    background-image: url('bg.png');
+}
+header .logo a {
+	background-image: url("logo.png");
+	background-size: 90px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 100px;
+	width: 111px;
+	text-indent: -999999px;
+	position: relative;
+    top: -15px;
+}
+
+#MyContact{
+    color: rgb(141, 141, 141);
+    font-family: "Merriweather Sans";
+    text-decoration: none;
+    font-size: x-large;
+    position: fixed;
+    top: 10px;
+    right: 250px;
+}
+
+#SignIn{
+    color: rgb(141, 141, 141);
+    font-family: "Merriweather Sans";
+    text-decoration: none;
+    font-size: x-large;
+    position: fixed;
+    top: 10px;
+    right: 400px;
+}
+#MyContactText{
+    color: #ffff;
+    font-family: "Roboto Slab";
+    font-size:300%;
+    position: relative;
+    right: 10px;
+    left: 650px;
+}
+#Home{
+    color: rgb(141, 141, 141);
+    font-family: "Merriweather Sans";
+    text-decoration: none;
+    font-size: x-large;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+#Game_1{
+    font-family: "Merriweather Sans";
+    font-size: 24px;
+    color: #151D21;
+    display: inline-flex;
+    padding: 8px;
+    margin-bottom: 5%;
+    margin-right: 3%;
+    margin-left: 47%;
+    
+}
+footer{
+    color: white; 
+    position: fixed;
+    bottom: 0px;
+}
+#MyGames{
+    font-family: "Merriweather Sans";
+    text-decoration: none;
+    font-size: x-large;
+    color: rgb(141, 141, 141);
+    position: fixed;
+    top: 10px;
+    right: 110px;  
+}
+#AboutMe{
+    font-family: "Merriweather Sans";
+    font-size: 24px;
+    color: #151D21;
+    background: #5169d1;
+    display: inline-flex;
+    padding: 6px;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 45%;
+    border: none;
+    border-radius: 5px;
+    
+}
+p{
+    font-size: 200%;
+    color: azure;
+    font-family: "Quattrocento";
+    position: relative;
+    text-align: center;
+    margin-top: 220px;;
+    
+    
+}
+#Home_Load{
+    font-family: "Merriweather Sans";
+    font-size: 24px;
+    color: #151D21;
+    background: #5169d1;
+    display: inline-flex;
+    padding: 10px;
+    margin-bottom: 5%;
+    margin-right: 3%;
+    margin-left: 47%;
+    border: none;
+    border-radius: 5px;
+}
+#Games_Load{
+    font-family: "Merriweather Sans";
+    font-size: 24px;
+    color: #151D21;
+    background: #5169d1;
+    display: inline-flex;
+    padding: 10px;
+    margin-bottom: 5%;
+    margin-right: 3%;
+    margin-left: 47%;
+    border: none;
+    border-radius: 5px;
+}
+
+#Contact_Load{
+    font-family: "Merriweather Sans";
+    font-size: 24px;
+    color: #151D21;
+    background: #5169d1;
+    display: inline-flex;
+    padding: 10px;
+    margin-bottom: 5%;
+    margin-right: 3%;
+    margin-left: 47%;
+    border: none;
+    border-radius: 5px;
+}
+
+#Sign_In_Load{
+    font-family: "Merriweather Sans";
+    font-size: 24px;
+    color: #151D21;
+    background: #5169d1;
+    display: inline-flex;
+    padding: 10px;
+    margin-bottom: 5%;
+    margin-right: 3%;
+    margin-left: 47%;
+    border: none;
+    border-radius: 5px;
+
+}
+#AboutMeText{
+    font-size: 300%;
+    color: azure;
+    font-family: "Quattrocento";
+    position: relative;
+    text-align: center;
+    margin-top: 1000px;
+}
+#My_description{
+    font-size: 300%;
+    color: azure;
+    font-family: "Quattrocento";
+    position: relative;
+    text-align: center;
+    margin-top: 1000px;
+}
+#Games_Title{
+    font-size: 400%;
+    color: azure;
+    font-family: "Quattrocento";
+    position: relative;
+    text-align: center;
+    margin-right: 58%;
+    margin-left: 10%;
+}
+#introduction{
+    font-size: 400%;
+    color: azure;
+    font-family: "Quattrocento";
+    position: relative;
+    text-align: center;
+    margin-top: 220px;;   
+}
+.odd{
+    font-family: "Quattrocento";
+    position: relative;
+    font-size: 55%;
+    color:rgb(255, 255, 255)
+}
+.description{
+    font-family: "Quattrocento";
+    position: relative;
+    font-size: 200%;
+    color:rgb(255, 255, 255)
+}
+
+div{
+    font-family: "Merriweather Sans";
+    color: white;
+    font-size: x-large;
+}
+h1{
+    color: #ffff;
+    font-family: "Roboto Slab";
+    font-size:300%;
+    position: relative;
+    right: 500px;
+    left: 460px;
+    
+}
+#MyWebsiteText{
+    color: #ffff;
+    font-family: "Roboto Slab";
+    font-size:300%;
+    position: relative;
+    right: 800px;
+    left: 550px;
+}
+img{
+    position: relative;
+    top: -15px;
+    float: left;
+    height: 100px;
+	width: 125px;
+    margin: 10px
+}
+/* 
+Gmail and Password Panel:
+*/
+
+#Gmail_Box{
+    background-color: #151D21;
+    position: relative;
+    left: 675px;
+    top: 140px;
+    font-size: 40px;
+    border: #151D21;
+    border-radius: 5px;
+}
+#Gmail_TypeBox{
+    background-color: hsl(199, 44%, 14%);
+    
+    position: relative;
+    left: 375px;
+    top: 220px;
+    font-size: 40px;
+    border: #151D21;
+    border-radius: 5px;
+}
+
+#Password_Box{
+    background-color: #151D21;
+    position: relative;
+    left: 790px;
+    top: 250px;
+    font-size: 40px;
+    border: #151D21;
+    border-radius: 5px;
+}
+#Password_TypeBox{
+    background-color: hsl(199, 44%, 14%);
+    
+    position: relative;
+    left: 450px;
+    top: 330px;
+    font-size: 40px;
+    border: #151D21;
+    border-radius: 5px;
+}
+
+#SignInButton{
+    background-color: hsl(199, 44%, 14%);
+    
+    position: relative;
+    left: 835px;
+    
+    top: 330px;
+    font-size: 40px;
+    border: #151D21;
+    border-radius: 5px;
+}
+/* 
+Backend with mysql and phpscripts:
+*/
+#my_customer{
+    font-family: "sans-serif";
+    color: rgb(0, 102, 255);
+    left:10px;
+}
